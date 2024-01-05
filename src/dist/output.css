@@ -673,6 +673,14 @@ body{
   margin-top: 1.75rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
 }
@@ -687,6 +695,10 @@ body{
 
 .h-screen{
   height: 100vh;
+}
+
+.min-h-screen{
+  min-height: 100vh;
 }
 
 .w-10{
@@ -729,8 +741,16 @@ body{
   overflow: hidden;
 }
 
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
+
 .rounded-full{
   border-radius: 9999px;
+}
+
+.border{
+  border-width: 1px;
 }
 
 .bg-gray-900{
@@ -819,6 +839,10 @@ body{
 }
 
 @media (min-width: 768px){
+  .md\:inline{
+    display: inline;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
