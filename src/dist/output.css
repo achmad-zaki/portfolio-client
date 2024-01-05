@@ -665,16 +665,12 @@ body{
   z-index: 50;
 }
 
-.mt-4{
-  margin-top: 1rem;
-}
-
-.mt-7{
-  margin-top: 1.75rem;
-}
-
 .mt-10{
   margin-top: 2.5rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .block{
@@ -691,10 +687,6 @@ body{
 
 .h-6{
   height: 1.5rem;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .min-h-screen{
@@ -741,16 +733,8 @@ body{
   overflow: hidden;
 }
 
-.overflow-x-hidden{
-  overflow-x: hidden;
-}
-
 .rounded-full{
   border-radius: 9999px;
-}
-
-.border{
-  border-width: 1px;
 }
 
 .bg-gray-900{
@@ -785,10 +769,6 @@ body{
 .py-3\.5{
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
-}
-
-.pt-20{
-  padding-top: 5rem;
 }
 
 .text-center{
@@ -839,8 +819,8 @@ body{
 }
 
 @media (min-width: 768px){
-  .md\:inline{
-    display: inline;
+  .md\:inline-flex{
+    display: inline-flex;
   }
 
   .md\:w-1\/2{
