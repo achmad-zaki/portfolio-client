@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-poppins bg-black text-white bg-hero-image bg-no-repeat bg-cover
+    }
+}
+
+@layer components {
+    .smooth-transition {
+        @apply transition-all duration-300
+    }
+
+    .btn-primary {
+        @apply bg-[#F2672E] hover:bg-[#D65926] rounded-[4px] px-8 py-4 font-semibold
+    }
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #A367B1;
+    border-radius: 20px;
+    width: 7px;
+}
